@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://mamapajaro.github.io/</loc>
-    <lastmod>2025-08-04</lastmod>
-  </url>
-  <url>
-    <loc>https://gerrig.byethost8.com/MamaPajaro/Productos</loc>
-    <lastmod>2025-08-04</lastmod>
-  </url>
-  <url>
-    <loc>https://gerrig.byethost8.com/MamaPajaro/Contacto</loc>
-    <lastmod>2025-08-04</lastmod>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://mamapajaro.github.io/</loc>
+  <lastmod>2025-08-05T06:10:51+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://gerrig.byethost8.com/MamaPajaro/Productos</loc>
+  <lastmod>2025-08-05</lastmod>
+</url>
+
+<url>
+  <loc>https://gerrig.byethost8.com/MamaPajaro/Contacto</loc>
+  <lastmod>2025-08-05</lastmod>
+</url>
+
 </urlset>
