@@ -1,6 +1,7 @@
 {
   "name": "Mama's Pájaro",
-  "short_name": "MamaPájaro",
+  "short_name": "Mama Pájaro",
+  "version": "3.0",
   "start_url": "https://mamapajaro.byethost8.com/",
   "display": "standalone",
   "background_color": "#fff0f3",
