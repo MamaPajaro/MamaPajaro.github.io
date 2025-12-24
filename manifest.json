@@ -1,0 +1,32 @@
+{
+  "name": "Mama's Pájaro",
+  "short_name": "Mamá Pájaro",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff0f3",
+  "theme_color": "#ff9a9e",
+  "description": "Tienda en línea de artículos para aves. El Salvador",
+  "orientation": "portrait-primary",
+  "lang": "es-SV",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
