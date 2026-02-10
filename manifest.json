@@ -41,14 +41,14 @@
   "screenshots": [
     {
       "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-mobile-1.jpg",
-      "sizes": "1080x2520",
+      "sizes": "1080x2400",
       "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Explora nuestro catálogo desde tu móvil"
     },
     {
       "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-mobile-2.jpg",
-      "sizes": "1080x2520",
+      "sizes": "1080x2400",
       "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Detalles de producto y compra fácil en tu móvil"
