@@ -1,13 +1,22 @@
 {
+  "id": "/",
   "name": "Mama's Pájaro",
   "short_name": "Mama Pájaro",
-  "version": "3.0",
+  "version": "3.1.0",
   "start_url": "https://mamapajaro.byethost8.com/",
-  "display": "standalone",
+  "description": "Tienda en línea de artículos premium para aves en El Salvador.",
+  "categories": ["shopping", "lifestyle"],
+  "orientation": "portrait",
   "background_color": "#fff0f3",
   "theme_color": "#ff9a9e",
-  "description": "Tienda en línea de artículos para aves. El Salvador",
-  "orientation": "portrait",
+  
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+
   "icons": [
     {
       "src": "https://mamapajaro.byethost8.com/assets/img/icon-192.png",
@@ -26,6 +35,59 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-mobile-1.jpg",
+      "sizes": "1080x2520",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Explora nuestro catálogo desde tu móvil"
+    },
+    {
+      "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-mobile-2.jpg",
+      "sizes": "1080x2520",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Detalles de producto y compra fácil en tu móvil"
+    },
+    {
+      "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-desktop-1.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Explora nuestro catálogo desde tu escritorio"
+    },
+    {
+      "src": "https://mamapajaro.byethost8.com/assets/img/PWA/screenshot-desktop-2.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Detalles de producto y compra fácil en escritorio"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Ver Productos",
+      "short_name": "Productos",
+      "url": "https://mamapajaro.byethost8.com/product",
+      "icons": [{ "src": "https://mamapajaro.byethost8.com/assets/img/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mi Perfil",
+      "short_name": "Perfil",
+      "url": "https://mamapajaro.byethost8.com/profile",
+      "icons": [{ "src": "https://mamapajaro.byethost8.com/assets/img/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+
+  "protocol_handlers": [
+    {
+      "protocol": "web+mamapajaro",
+      "url": "https://mamapajaro.byethost8.com/product/detail?sku=%s"
     }
   ]
 }
